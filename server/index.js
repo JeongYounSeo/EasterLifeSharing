@@ -14,7 +14,7 @@ app.use(
   cors({
     origin: [
       "http://localhost:3000",
-      "https://easterlifesharing.vercel.app",
+      "https://easter-life-sharing.vercel.app",
     ],
     credentials: true,
   })
