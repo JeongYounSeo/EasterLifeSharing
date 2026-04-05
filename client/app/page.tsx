@@ -96,12 +96,12 @@ export default function HomePage() {
   return (
     <div>
       <div className="fixed right-6 top-6 z-50">
-        <Link
+        {/*<Link
           href="/admin"
           className="rounded-full bg-black px-4 py-2 text-sm font-semibold text-white shadow"
         >
           관리자 페이지
-        </Link>
+        </Link>*/}
       </div>
 
       <DonationBoard

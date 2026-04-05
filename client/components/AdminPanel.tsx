@@ -97,7 +97,7 @@ export default function AdminPanel({
           <p className="mb-2 text-sm font-semibold text-orange-600">
             Admin Panel
           </p>
-          <h1 className="text-4xl font-bold tracking-tight">관리자 페이지</h1>
+            <h1 className="text-4xl font-bold tracking-tight">관리자 페이지</h1>
           <p className="mt-3 text-base text-gray-600">
             후원 금액을 반영하고 최근 입력 내역을 확인할 수 있습니다.
           </p>
