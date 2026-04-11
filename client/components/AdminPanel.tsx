@@ -41,6 +41,10 @@ export default function AdminPanel({
     setFeedbackMessage("");
     setFeedbackType("");
   };
+  
+  const handleQuickAdd = (amount: number) => {
+    onAddDonation(amount, "현장 후원");
+  };
 
   const handleSubmit = async () => {
     if (isSubmitting) return;
@@ -92,6 +96,22 @@ export default function AdminPanel({
 
   return (
     <main className="min-h-screen bg-[#fffaf2] px-6 py-10">
+      <div className="mt-6">
+        <p className="mb-3 text-sm font-semibold text-gray-600">빠른 추가</p>
+
+        <div className="grid grid-cols-3 gap-3">
+          {[5000, 10000, 20000, 30000, 50000].map((amount) => (
+            <button
+              key={amount}
+              onClick={() => handleQuickAdd(amount)}
+              className="rounded-xl bg-orange-500 px-4 py-3 text-sm font-semibold text-white shadow-sm transition hover:bg-orange-600 active:scale-[0.97]"
+            >
+              +{amount.toLocaleString()}원
+            </button>
+          ))}
+        </div>
+      </div>
+
       <div className="mx-auto max-w-3xl">
         <header className="mb-8">
           <p className="mb-2 text-sm font-semibold text-orange-600">

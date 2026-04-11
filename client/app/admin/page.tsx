@@ -64,12 +64,14 @@ export default function AdminPage() {
         </Link>
       </div>
 
-      <div className="grid min-h-screen gap-6 lg:grid-cols-2">
-        <div>
+      <div className="grid min-h-screen lg:grid-cols-[420px_1fr]">
+      {/* 왼쪽: 관리자 조작 */}
+        <div className="border-r border-orange-100 bg-[#fffaf2]">
           <AdminPanel onAddDonation={handleAddDonation} recentLogs={logs} />
         </div>
 
-        <div className="border-l border-orange-100">
+        {/* 오른쪽: 후원 페이지 그대로 */}
+        <div className="bg-[#f8f3ea]">
           <DonationBoard
             totalAmount={totalAmount}
             goalAmount={goalAmount}

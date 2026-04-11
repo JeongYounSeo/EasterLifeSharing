@@ -12,3 +12,33 @@ body {
 * {
   box-sizing: border-box;
 }
+
+.floating-heart {
+  opacity: 0;
+  transform: translateY(0) scale(0.9);
+  animation-name: floatHeartUp;
+  animation-timing-function: ease-out;
+  animation-fill-mode: forwards;
+}
+
+@keyframes floatHeartUp {
+  0% {
+    opacity: 0;
+    transform: translateY(0) scale(0.8);
+  }
+
+  15% {
+    opacity: 1;
+    transform: translateY(-10px) scale(1);
+  }
+
+  70% {
+    opacity: 1;
+    transform: translateY(-120px) scale(1.08);
+  }
+
+  100% {
+    opacity: 0;
+    transform: translateY(-180px) scale(0.95);
+  }
+}
