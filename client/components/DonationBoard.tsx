@@ -43,7 +43,7 @@ export default function DonationBoard({
               </h1>
             </div>
 
-            <div className="grid  grid-cols-1 gap-6 lg:grid-cols-[0.8fr_1fr]">
+            <div className="grid  grid-cols-1 gap-6 lg:grid-cols-[0.9fr_1fr]">
               {/* 왼쪽 내부 패널: QR + 계좌 */}
               <div className="rounded-[28px] bg-[#fcfaf7] p-6">
                 <div className="flex h-full flex-col gap-5">
@@ -56,7 +56,7 @@ export default function DonationBoard({
                       <img
                         src="/qr.jpg"
                         alt="후원 QR 코드"
-                        className="h-[300px] w-[300px] object-contain"
+                        className="h-[340px] w-[340px] object-contain"
                       />
                     </div>
                   </div>
