@@ -56,7 +56,7 @@ export default function DonationBoard({
                       <img
                         src="/qr.jpg"
                         alt="후원 QR 코드"
-                        className="h-[340px] w-[340px] object-contain"
+                        className="h-[400px] w-[400px] object-contain"
                       />
                     </div>
                   </div>
@@ -97,8 +97,8 @@ export default function DonationBoard({
                       <div>
                         <p className="font-medium text-3xl leading-10 whitespace-pre text-[#1f1b16]">
                           2. 우리의 것을 기쁨으로 내어드릴 때, 하나님의 사랑이
-                          <br></br>    우리 안에 충만하여져서 나누어 줄 때 비로소 채워짐을
-                          <br></br>    경험하는 신비를 누릴 수 있기를
+                          <br></br>    우리 안에 충만하여져서 나누어 줄 때 비로소 
+                          <br></br>    채워짐을 경험하는 신비를 누릴 수 있기를
                         </p>
                       </div>
 
