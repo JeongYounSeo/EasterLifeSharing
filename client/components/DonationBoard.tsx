@@ -63,7 +63,7 @@ export default function DonationBoard({
 
                   <div className="mt-8 rounded-[24px] border border-gray-100 bg-white p-6">
                     <p className="text-sm font-medium text-gray-500">후원 계좌</p>
-                    <p className="mt-3 text-4xl font-bold tracking-tight">
+                    <p className="mt-3 text-3xl font-bold tracking-tight">
                       3333-37-0711762
                     </p>
                     <p className="mt-2 text-2xl text-gray-700">카카오뱅크 정윤서</p>
