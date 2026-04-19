@@ -88,24 +88,24 @@ export default function DonationBoard({
                     <div className="space-y-5 text-lg leading-8 text-gray-700">
                       <div>
                         <p className="font-medium leading-10 text-3xl whitespace-pre text-[#1f1b16]">
-                          1. 계속 인원이 늘어나고 있는 마구비케 교회에 부흥을 
-                          <br></br>    더 허락하여 주시고 많아지는 주님의 제자를 먹이는 
-                          <br></br>    오병이어의 기적이 일어나기를
-
+                          1. 한경 교회에 일어난 화재가 오히려 하나님의 사랑을
+                          <br></br>    깨닫고 문제보다 더 크게 일하시는 주님을
+                          <br></br>    바라볼 수 있는 귀한 기회가 되기를
                         </p>
                       </div>
 
                       <div>
                         <p className="font-medium text-3xl leading-10 whitespace-pre text-[#1f1b16]">
-                          2. 그 땅의 복음이 어른들에게만 전해지는 것이 아니라
-                          <br></br>    아이들에게 이어져 다음 세대에도 복음이
-                          <br />    끊어지지 않고 피어날 수 있기를
+                          2. 우리의 것을 기쁨으로 내어드릴 때, 하나님의 사랑이
+                          <br></br>    우리 안에 충만하여져서 나누어 줄 때 비로소 채워짐을
+                          <br></br>    경험하는 신비를 누릴 수 있기를
                         </p>
                       </div>
 
                       <div>
                         <p className="font-medium text-3xl leading-10 whitespace-pre text-[#1f1b16]">
-                          3. 모든 준비 과정에 은혜와 질서가 있도록
+                          3. 교회의 회복을 통해 제주도에 복음이 흘러들어가
+                          <br></br>    하나님의 나라가 다시 부흥할 수 있기를
                         </p>
                       </div>
                     </div>
